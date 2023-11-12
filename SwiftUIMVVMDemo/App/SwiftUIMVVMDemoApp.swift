@@ -14,6 +14,10 @@ struct SwiftUIMVVMDemoApp: App {
                 }
                 .tabItem { Label("Contacts", systemImage: "person.crop.circle") }
                 NavigationStack {
+                    ContactCreationAssembly.view()
+                }
+                .tabItem { Label("Add contact", systemImage: "person.crop.circle.badge.plus") }
+                NavigationStack {
                     ContactInfoAssembly.view()
                 }
                 .tabItem { Label("Contact info", systemImage: "info.circle") }

@@ -20,6 +20,11 @@
 		A73CADB32B00EDAB006B50A4 /* ContactInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CADAC2B00EDAB006B50A4 /* ContactInfoViewModel.swift */; };
 		A73CADB42B00EDAB006B50A4 /* ContactInfoAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CADAE2B00EDAB006B50A4 /* ContactInfoAssembly.swift */; };
 		A73CADB52B00EDAB006B50A4 /* ContactInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CADB02B00EDAB006B50A4 /* ContactInfoView.swift */; };
+		A73CADC22B00F0DF006B50A4 /* ContactCreationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CADBB2B00F0DF006B50A4 /* ContactCreationViewModel.swift */; };
+		A73CADC32B00F0DF006B50A4 /* StockContactCreationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CADBC2B00F0DF006B50A4 /* StockContactCreationViewModel.swift */; };
+		A73CADC42B00F0DF006B50A4 /* MockContactCreationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CADBD2B00F0DF006B50A4 /* MockContactCreationViewModel.swift */; };
+		A73CADC52B00F0DF006B50A4 /* ContactCreationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CADBF2B00F0DF006B50A4 /* ContactCreationAssembly.swift */; };
+		A73CADC62B00F0DF006B50A4 /* ContactCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CADC12B00F0DF006B50A4 /* ContactCreationView.swift */; };
 		A7BF982E2B00C8DE0072B71F /* SwiftUIMVVMDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BF982D2B00C8DE0072B71F /* SwiftUIMVVMDemoApp.swift */; };
 		A7BF98322B00C8E00072B71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BF98312B00C8E00072B71F /* Assets.xcassets */; };
 		A7BF98362B00C8E00072B71F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BF98352B00C8E00072B71F /* Preview Assets.xcassets */; };
@@ -59,6 +64,11 @@
 		A73CADAC2B00EDAB006B50A4 /* ContactInfoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInfoViewModel.swift; sourceTree = "<group>"; };
 		A73CADAE2B00EDAB006B50A4 /* ContactInfoAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInfoAssembly.swift; sourceTree = "<group>"; };
 		A73CADB02B00EDAB006B50A4 /* ContactInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInfoView.swift; sourceTree = "<group>"; };
+		A73CADBB2B00F0DF006B50A4 /* ContactCreationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCreationViewModel.swift; sourceTree = "<group>"; };
+		A73CADBC2B00F0DF006B50A4 /* StockContactCreationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockContactCreationViewModel.swift; sourceTree = "<group>"; };
+		A73CADBD2B00F0DF006B50A4 /* MockContactCreationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockContactCreationViewModel.swift; sourceTree = "<group>"; };
+		A73CADBF2B00F0DF006B50A4 /* ContactCreationAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCreationAssembly.swift; sourceTree = "<group>"; };
+		A73CADC12B00F0DF006B50A4 /* ContactCreationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCreationView.swift; sourceTree = "<group>"; };
 		A7BF982A2B00C8DE0072B71F /* SwiftUIMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BF982D2B00C8DE0072B71F /* SwiftUIMVVMDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMVVMDemoApp.swift; sourceTree = "<group>"; };
 		A7BF98312B00C8E00072B71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -169,6 +179,42 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		A73CADB92B00F0DF006B50A4 /* ContactCreation */ = {
+			isa = PBXGroup;
+			children = (
+				A73CADBE2B00F0DF006B50A4 /* Assembly */,
+				A73CADBA2B00F0DF006B50A4 /* ViewModel */,
+				A73CADC02B00F0DF006B50A4 /* View */,
+			);
+			path = ContactCreation;
+			sourceTree = "<group>";
+		};
+		A73CADBA2B00F0DF006B50A4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A73CADBB2B00F0DF006B50A4 /* ContactCreationViewModel.swift */,
+				A73CADBC2B00F0DF006B50A4 /* StockContactCreationViewModel.swift */,
+				A73CADBD2B00F0DF006B50A4 /* MockContactCreationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A73CADBE2B00F0DF006B50A4 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				A73CADBF2B00F0DF006B50A4 /* ContactCreationAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		A73CADC02B00F0DF006B50A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A73CADC12B00F0DF006B50A4 /* ContactCreationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A7BF98212B00C8DE0072B71F = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +293,7 @@
 		A7BF985A2B00C9780072B71F /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				A73CADB92B00F0DF006B50A4 /* ContactCreation */,
 				A73CADA82B00EDAB006B50A4 /* ContactInfo */,
 				A73CAD982B00ED94006B50A4 /* ContactList */,
 			);
@@ -393,15 +440,20 @@
 			files = (
 				A73CADA32B00ED94006B50A4 /* MockContactListViewModel.swift in Sources */,
 				A73CADB52B00EDAB006B50A4 /* ContactInfoView.swift in Sources */,
+				A73CADC22B00F0DF006B50A4 /* ContactCreationViewModel.swift in Sources */,
 				A73CADB42B00EDAB006B50A4 /* ContactInfoAssembly.swift in Sources */,
 				A73CADB32B00EDAB006B50A4 /* ContactInfoViewModel.swift in Sources */,
+				A73CADC62B00F0DF006B50A4 /* ContactCreationView.swift in Sources */,
 				A73CADA62B00ED94006B50A4 /* ContactListView.swift in Sources */,
 				A73CAD932B00EB09006B50A4 /* MockContactData.swift in Sources */,
+				A73CADC32B00F0DF006B50A4 /* StockContactCreationViewModel.swift in Sources */,
 				A73CADA22B00ED94006B50A4 /* StockContactListViewModel.swift in Sources */,
 				A73CADB12B00EDAB006B50A4 /* StockContactInfoViewModel.swift in Sources */,
 				A73CADA72B00ED94006B50A4 /* ContactListCell.swift in Sources */,
+				A73CADC52B00F0DF006B50A4 /* ContactCreationAssembly.swift in Sources */,
 				A73CADA52B00ED94006B50A4 /* ContactListAssembly.swift in Sources */,
 				A73CAD8E2B00EA11006B50A4 /* ContactModel.swift in Sources */,
+				A73CADC42B00F0DF006B50A4 /* MockContactCreationViewModel.swift in Sources */,
 				A7BF982E2B00C8DE0072B71F /* SwiftUIMVVMDemoApp.swift in Sources */,
 				A73CADB22B00EDAB006B50A4 /* MockContactInfoViewModel.swift in Sources */,
 				A73CADA42B00ED94006B50A4 /* ContactListViewModel.swift in Sources */,
