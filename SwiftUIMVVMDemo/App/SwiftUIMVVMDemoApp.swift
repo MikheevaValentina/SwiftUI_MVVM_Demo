@@ -8,7 +8,12 @@ import SwiftUI
 struct SwiftUIMVVMDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            Text("Hello")
+            TabView {
+                NavigationStack {
+                    ContactListAssembly.view()
+                }
+                .tabItem { Label("Contacts", systemImage: "person.crop.circle") }
+            }
         }
     }
 }

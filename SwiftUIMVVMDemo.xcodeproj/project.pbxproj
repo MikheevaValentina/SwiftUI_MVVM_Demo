@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A73CAD862B00DC55006B50A4 /* StockContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CAD7F2B00DC55006B50A4 /* StockContactListViewModel.swift */; };
+		A73CAD872B00DC55006B50A4 /* MockContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CAD802B00DC55006B50A4 /* MockContactListViewModel.swift */; };
+		A73CAD882B00DC55006B50A4 /* ContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CAD812B00DC55006B50A4 /* ContactListViewModel.swift */; };
+		A73CAD892B00DC55006B50A4 /* ContactListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CAD832B00DC55006B50A4 /* ContactListAssembly.swift */; };
+		A73CAD8A2B00DC55006B50A4 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CAD852B00DC55006B50A4 /* ContactListView.swift */; };
+		A73CAD8E2B00EA11006B50A4 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CAD8D2B00EA11006B50A4 /* ContactModel.swift */; };
+		A73CAD912B00EA49006B50A4 /* ContactListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CAD902B00EA49006B50A4 /* ContactListCell.swift */; };
+		A73CAD932B00EB09006B50A4 /* MockContactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CAD922B00EB09006B50A4 /* MockContactData.swift */; };
 		A7BF982E2B00C8DE0072B71F /* SwiftUIMVVMDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BF982D2B00C8DE0072B71F /* SwiftUIMVVMDemoApp.swift */; };
 		A7BF98322B00C8E00072B71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BF98312B00C8E00072B71F /* Assets.xcassets */; };
 		A7BF98362B00C8E00072B71F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BF98352B00C8E00072B71F /* Preview Assets.xcassets */; };
@@ -33,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A73CAD7F2B00DC55006B50A4 /* StockContactListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockContactListViewModel.swift; sourceTree = "<group>"; };
+		A73CAD802B00DC55006B50A4 /* MockContactListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockContactListViewModel.swift; sourceTree = "<group>"; };
+		A73CAD812B00DC55006B50A4 /* ContactListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListViewModel.swift; sourceTree = "<group>"; };
+		A73CAD832B00DC55006B50A4 /* ContactListAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListAssembly.swift; sourceTree = "<group>"; };
+		A73CAD852B00DC55006B50A4 /* ContactListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
+		A73CAD8D2B00EA11006B50A4 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		A73CAD902B00EA49006B50A4 /* ContactListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListCell.swift; sourceTree = "<group>"; };
+		A73CAD922B00EB09006B50A4 /* MockContactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockContactData.swift; sourceTree = "<group>"; };
 		A7BF982A2B00C8DE0072B71F /* SwiftUIMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BF982D2B00C8DE0072B71F /* SwiftUIMVVMDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMVVMDemoApp.swift; sourceTree = "<group>"; };
 		A7BF98312B00C8E00072B71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,6 +86,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A73CAD7D2B00DC55006B50A4 /* ContactList */ = {
+			isa = PBXGroup;
+			children = (
+				A73CAD9D2B00ED94006B50A4 /* Assembly */,
+				A73CAD992B00ED94006B50A4 /* ViewModel */,
+				A73CAD9F2B00ED94006B50A4 /* View */,
+			);
+			path = ContactList;
+			sourceTree = "<group>";
+		};
+		A73CAD7E2B00DC55006B50A4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A73CAD7F2B00DC55006B50A4 /* StockContactListViewModel.swift */,
+				A73CAD802B00DC55006B50A4 /* MockContactListViewModel.swift */,
+				A73CAD812B00DC55006B50A4 /* ContactListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A73CAD822B00DC55006B50A4 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				A73CAD832B00DC55006B50A4 /* ContactListAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		A73CAD842B00DC55006B50A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A73CAD852B00DC55006B50A4 /* ContactListView.swift */,
+				A73CAD902B00EA49006B50A4 /* ContactListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A7BF98212B00C8DE0072B71F = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +192,8 @@
 		A7BF98592B00C96E0072B71F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A73CAD8D2B00EA11006B50A4 /* ContactModel.swift */,
+				A73CAD922B00EB09006B50A4 /* MockContactData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -146,6 +201,7 @@
 		A7BF985A2B00C9780072B71F /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				A73CAD7D2B00DC55006B50A4 /* ContactList */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -288,7 +344,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73CAD932B00EB09006B50A4 /* MockContactData.swift in Sources */,
+				A73CAD912B00EA49006B50A4 /* ContactListCell.swift in Sources */,
+				A73CAD862B00DC55006B50A4 /* StockContactListViewModel.swift in Sources */,
+				A73CAD882B00DC55006B50A4 /* ContactListViewModel.swift in Sources */,
+				A73CAD8E2B00EA11006B50A4 /* ContactModel.swift in Sources */,
 				A7BF982E2B00C8DE0072B71F /* SwiftUIMVVMDemoApp.swift in Sources */,
+				A73CAD8A2B00DC55006B50A4 /* ContactListView.swift in Sources */,
+				A73CAD892B00DC55006B50A4 /* ContactListAssembly.swift in Sources */,
+				A73CAD872B00DC55006B50A4 /* MockContactListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +534,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = VA.SwiftUIMVVMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -508,7 +573,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = VA.SwiftUIMVVMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
